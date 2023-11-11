@@ -1,11 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bigContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .mainContainer {
-    height: 160px;
-    width: 160px;
     border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    
+    width: calc((25px + 1px) * 16 + 2 * 2px); /* Width of 16 columns with 1px gap and 2px border on each side */
+    height: calc((25px + 1px) * 16 + 2 * 2px); /* Width of 16 columns with 1px gap and 2px border on each side */
 }
 
 .gridMainContainer {
-    height: 10px;
-    width: 10px;
-    border: 1px solid grey;
+    height: 25px;
+    width: 25px;
+    border: 1px solid lightgray;
 }
