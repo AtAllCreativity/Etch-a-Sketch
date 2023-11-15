@@ -1,5 +1,5 @@
 # Etch-a-Sketch
-Final exercise from The Odin Project to create a Etch-a-Sketch game using HTML+CSS and Javascript.
+Final exercise from The Odin Project to create a Etch-a-Sketch game using HTML+CSS, Bootstrap and Javascript.
 
 My goal for this project was:
  - Understand functions and how to called them.
